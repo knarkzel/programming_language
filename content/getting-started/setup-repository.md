@@ -33,14 +33,17 @@ Lets also add some dependencies we'll need:
 ```bash
 $ cargo install cargo-edit
 $ cargo add nom fehler anyhow
+    Updating 'https://github.com/rust-lang/crates.io-index' index
+      Adding nom v7.1.1 to dependencies.
+             Features:
+             + alloc
+             + memchr/std
+             + minimal-lexical/std
+             + std
+             - docsrs
+      Adding fehler v1.0.0 to dependencies.
+      Adding anyhow v1.0.57 to dependencies.
+             Features:
+             + std
+             - backtrace
 ```
-
-Project structure should look like following:
-
-```
-.
-|-- Cargo.toml
-`-- src
-    `-- main.rs
-```
-

@@ -1,0 +1,9 @@
+base_url = "https://knarkzel.github.io/programming-language-from-scratch"
+theme = "zola_easydocs_theme"
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
